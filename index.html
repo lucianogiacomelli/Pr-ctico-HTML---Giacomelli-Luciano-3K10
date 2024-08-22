@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practico de HTML-Giacomelli Luciano</title>
+    <style> 
+        body{
+            margin: 0%;
+            padding: 0%;
+        }
+        header{
+            text-align: center;
+            background-color: rgb(171, 247, 247);
+            align-content: center;
+        }
+        main{
+            align-content: center;
+        }
+        h2{
+            align-content: center;
+            color: rgba(7, 124, 95, 0.884);
+        }
+        a{
+            font-size: medium;
+            color: black;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid black;
+        }
+        footer{
+            text-align: end;
+            align-content: center;
+            background-color: rgb(171, 247, 247);
+        }
+        th{
+            text-align: center;
+            align-content: center;
+            background-color: antiquewhite;
+        }
+        td{
+            text-align: center;
+            align-content: center;
+            background-color: rgba(250, 235, 215, 0.192);
+        }
+        a{
+            background-color: rgba(246, 255, 127, 0.308);
+        }
+    </style>
+</head>
+<body>
+    <header> 
+        <h1> Práctico HTML-Desarrollo de Software</h1>
+    </header>    
+    <main> 
+        <ol> 
+            <div> 
+                <h2 id="Estructura básica"> <li> Estructura básica del documento HTML </li> </h2>
+                <p> <em>  Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título. </em> </p> 
+            </div>
+            <div>     
+                <h2 id="Encabezados"> <li> Encabezados </li> </h2>
+                <ul> 
+                    <li> <h1> Este es un texto en h1 </h1> </li>
+                    <li> <h2 style="color: black;"> Este es un texto en h2 </h2> </li>  
+                    <li> <h3> Este es un texto en h3 </h3> </li> 
+                    <li> <h4> Este es un texto en h4 </h4> </li>
+                    <li> <h5> Este es un texto en h5 </h5> </li>
+                    <li> <h6> Este es un texto en h6 </h6> </li>
+                </ul>
+            </div>
+            <div> 
+                <h2 id="Propiedades del Texto"> <li> Propiedades del Texto </li></h2>
+                <p> <B> Este es un texto en negrita </B></p>
+                <p> <em> Este es un texto en cursiva </em></p>
+                <p> <mark> Este es un texto resaltado </mark></p>
+                <p> <s> Este es un texto tachado </s></p>
+                <p> <u> Este es un texto subrayado </u></p>
+            </div>
+            <div> 
+                <h2 id="Divisiones y Agrupación de Contenido"> <li> Divisiones y Agrupación de Contenido </li> </h2>
+                <ul>
+                    <section> <li> <b> Sección 1 </b> </li></section>
+                    <article> <p> Contenido de la primera sección agrupada en un div </p> </article>
+                    <section> <li> <b> Seción 2 </b> </li></section>
+                    <article>  <p> Contenido de la segunda sección agrupada en un div </p></article>
+                </ul>
+            </div>
+            <div> 
+                <h2> <li> Enlaces </li>
+                    <ol style="color: black;"> 
+                        <li> Enlaces Internos </li>
+                        <nav>   
+                            <ul> 
+                                <li> <a href="#Estructura básica"> Estructura básica </a> </li>
+                                <li> <a href="#Encabezados"> Encabezado </a> </li>
+                                <li> <a href="#Propiedades del Texto"> Propiedades del Texto </a> </li>
+                                <li> <a href="#Divisiones y Agrupación de Contenido"> Divisiones y Agrupación de Contenido </a> </li>
+                                <li> <a href="#Elementos Multimedia"> Elementos Multimedia </a></li>
+                                <li> <a href="#Tablas"> Tablas </a></li>
+                                <li> <a href="#Formulario"> Formulario </a></li>
+
+                            </ul>
+                        </nav>
+                        
+                        <li> Enlaces Externos </li>
+                        <nav>  
+                            <ul> <li> <a href="https://www.youtube.com/playlist?list=PLRFOqDrY-6ns2FQdjmqx3ShGLRLj9ESPE"; target="_blank"> Lista de reproducción de videos de HTML </a> </li></ul>
+                        </nav>  
+                    </ol>
+            </div>
+            <div> 
+                <h2 id="Elementos Multimedia"> <li> Elementos Multimedia </li></h2>
+
+                     <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg" width="600px" height="200px" alt="Es una imagen de Mario Bros"/> 
+                     <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" controls width="300px" height="300px"> </video> 
+                     <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls> </audio>
+            </div>
+            <div>
+                <h2 id="Tablas"> <li> Tablas </li></h2> 
+                <table>
+                    <thead>
+                        <tr> 
+                            <th> <b> Columna 1 </b></th>
+                            <th> <b> Columna 2 </b></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> Dato 1 </td>
+                            <td> Dato 2 </td>
+                        </tr>
+                        <tr> 
+                            <td> Dato 3 </td>
+                            <td> Dato 4 </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <h2 id="Formulario"> Formulario </h2>
+                <label> Nombre: </label>
+                <input type="text" placeholder="Luciano Giacomelli">
+                <label> Email:</label>
+                <input type="email" placeholder="example@gmail.com">
+                <label> Mensaje </label>
+                <textarea> </textarea>
+                <button type="submit"> Enviar </button>
+            </div> 
+        </ol>
+        </div>
+    </main>
+    <footer>
+       <h3> 2024 Trabajo Práctico HTML-Giacomelli Luciano-3k10-Legajo:50692 </h3>
+    </footer>
+</body>
+</html>
