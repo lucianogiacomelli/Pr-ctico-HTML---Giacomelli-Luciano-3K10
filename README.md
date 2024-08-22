@@ -21,4 +21,4 @@ Los estilos se aplican inline en las etiquetas HTML.
     ```bash
     git clone https://github.com/lucianogiacomelli/Practico-HTML---Giacomelli-Luciano-3K10
     ```
-2. **Abre el archivo `practico.html`** en tu navegador web.
+2. **Abre el archivo `index.html`** en tu navegador web.
